@@ -1,6 +1,3 @@
-hello:
-	echo "Globant Go training course"
-
 ## windows-run: Start the services on windows
 windows-run: db-docker-build db-docker-run app-windows-run
 
